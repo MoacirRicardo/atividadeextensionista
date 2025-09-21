@@ -61,14 +61,14 @@ section p {
     margin-bottom: 25px;
 }
 
-/* Estilos para header */
+
 header p {
     font-size: 1.4rem;
     margin: 10px 0 0 0;
     opacity: 0.9;
 }
 
-/* Estilos para seções com imagem */
+
 .secao-com-imagem {
     display: flex;
     align-items: center;
@@ -97,7 +97,7 @@ header p {
     min-width: 300px;
 }
 
-/* Estilos para cards de benefícios */
+
 .beneficios-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -131,7 +131,7 @@ header p {
     margin: 0;
 }
 
-/* Estilos para atividades */
+
 .atividades-container {
     display: grid;
     gap: 20px;
@@ -172,7 +172,7 @@ header p {
     color: #2c7a7b;
 }
 
-/* Estilos para seção de dicas */
+
 #dicas-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -219,7 +219,7 @@ header p {
     justify-content: center;
 }
 
-/* Estilos para contador */
+
 .contador-container {
     background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
     padding: 25px;
@@ -424,7 +424,7 @@ footer {
         padding: 20px;
     }
 
-    /* Responsividade para imagens em telas pequenas */
+    /* Responsividade para imagens em telas menores */
     .imagem-secao {
         width: 100%;
         height: 200px;
