@@ -1,0 +1,126 @@
+''
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Exercícios na Terceira Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Saúde e Exercícios na Terceira Idade</h1>
+        <p>Viva com mais saúde, energia e alegria!</p>
+    </header>
+
+    <main>
+        <section id="beneficios">
+            <h2>Benefícios de se Exercitar Regularmente</h2>
+            <div class="secao-com-imagem">
+                <img src="images/exercicios_equilibrio.jpg" alt="Idosos praticando exercícios de equilíbrio e força" class="imagem-secao">
+                <p>A prática regular de atividades físicas na terceira idade traz inúmeros benefícios para a saúde do corpo e da mente. Manter-se ativo ajuda a melhorar a mobilidade, o humor, a memória e a prevenir diversas doenças, garantindo mais qualidade de vida e independência.</p>
+            </div>
+            
+            <div class="beneficios-grid">
+                <div class="beneficio-card">
+                    <h3>💪 Fortalecimento Muscular</h3>
+                    <p>Os exercícios ajudam a manter e aumentar a massa muscular, prevenindo a sarcopenia e mantendo a força necessária para as atividades diárias.</p>
+                </div>
+                
+                <div class="beneficio-card">
+                    <h3>🧠 Saúde Mental</h3>
+                    <p>A atividade física reduz sintomas de ansiedade e depressão, melhora a autoestima e contribui para o bem-estar emocional.</p>
+                </div>
+                
+                <div class="beneficio-card">
+                    <h3>🦴 Saúde Óssea</h3>
+                    <p>Exercícios regulares ajudam a manter a densidade óssea, prevenindo a osteoporose e reduzindo o risco de fraturas.</p>
+                </div>
+                
+                <div class="beneficio-card">
+                    <h3>❤️ Saúde Cardiovascular</h3>
+                    <p>Melhora a circulação sanguínea, controla a pressão arterial e reduz o risco de doenças cardíacas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="atividades">
+            <h2>Atividades Práticas para o Dia a Dia</h2>
+            <div class="secao-com-imagem">
+                <img src="images/caminhada_parque.png" alt="Grupo de idosos caminhando no parque" class="imagem-secao">
+                <p>Aqui estão algumas atividades simples e seguras que você pode fazer em casa ou ao ar livre:</p>
+            </div>
+            
+            <div class="atividades-container">
+                <div class="atividade-item">
+                    <h3>🚶‍♀️ Caminhada</h3>
+                    <p>Comece com 10-15 minutos por dia em ritmo confortável. A caminhada melhora a circulação, fortalece as pernas e é excelente para o coração.</p>
+                    <div class="dica-pratica">
+                        <strong>Dica:</strong> Use calçados confortáveis e escolha locais seguros como parques ou praças.
+                    </div>
+                </div>
+                
+                <div class="atividade-item">
+                    <h3>🤸‍♀️ Alongamento</h3>
+                    <p>Dedique 5-10 minutos diários para alongar braços, pernas e coluna. Ajuda a manter a flexibilidade e reduz dores musculares.</p>
+                    <div class="dica-pratica">
+                        <strong>Dica:</strong> Faça movimentos lentos e suaves, sem forçar. Respire profundamente durante os alongamentos.
+                    </div>
+                </div>
+                
+                <div class="atividade-item">
+                    <h3>💃 Dança Leve</h3>
+                    <p>Coloque suas músicas favoritas e dance por 10-20 minutos. A dança melhora o humor, a coordenação e é muito divertida!</p>
+                    <div class="dica-pratica">
+                        <strong>Dica:</strong> Não se preocupe com passos perfeitos. O importante é se movimentar e se divertir.
+                    </div>
+                </div>
+                
+                <div class="atividade-item">
+                    <h3>🫁 Exercícios de Respiração</h3>
+                    <p>Pratique respiração profunda por 5 minutos. Inspire pelo nariz, segure por 3 segundos e expire pela boca lentamente.</p>
+                    <div class="dica-pratica">
+                        <strong>Dica:</strong> Faça em local tranquilo, sentado confortavelmente. Ideal para relaxar e reduzir o estresse.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas Motivacionais</h2>
+            <div class="secao-com-imagem">
+                <img src="images/idosa_alongamento.jpg" alt="Idosa fazendo alongamento ao ar livre" class="imagem-secao">
+                <p>Clique nos botões abaixo para receber uma dica ou um lembrete para se exercitar!</p>
+            </div>
+            <div id="dicas-container">
+                <button id="dica-btn">💡 Nova Dica Motivacional</button>
+                <button id="lembrete-btn">⏰ Lembrete de Exercício</button>
+                <div id="mensagem-container">
+                    <p id="dica-texto"></p>
+                </div>
+            </div>
+            
+            <div class="contador-container">
+                <h3>🎯 Minha Meta Diária</h3>
+                <p>Quantos minutos você se exercitou hoje?</p>
+                <div class="contador-controles">
+                    <button id="diminuir-btn">-</button>
+                    <span id="contador-minutos">0</span>
+                    <button id="aumentar-btn">+</button>
+                    <span>minutos</span>
+                </div>
+                <div id="parabens-msg" class="parabens-hidden">
+                    🎉 Parabéns! Você atingiu sua meta de 30 minutos!
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Cuidar do corpo é cuidar da vida!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+''
