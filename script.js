@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Caminhe pela casa por alguns minutos. 🏠"
     ];
 
-    // Elementos do DOM
+   
     const dicaBtn = document.getElementById("dica-btn");
     const lembreteBtn = document.getElementById("lembrete-btn");
     const dicaTexto = document.getElementById("dica-texto");
@@ -36,29 +36,29 @@ document.addEventListener("DOMContentLoaded", function() {
     const contadorMinutos = document.getElementById("contador-minutos");
     const parabensMsg = document.getElementById("parabens-msg");
 
-    // Variável para controlar os minutos
+    
     let minutos = 0;
 
-    // Função para mostrar dica motivacional
+    // Função para mostrar as dicas motivacionais
     dicaBtn.addEventListener("click", function() {
         const randomIndex = Math.floor(Math.random() * dicas.length);
         dicaTexto.textContent = dicas[randomIndex];
         dicaTexto.style.display = "flex";
         
-        // Efeito de animação
+        
         dicaTexto.style.opacity = "0";
         setTimeout(() => {
             dicaTexto.style.opacity = "1";
         }, 100);
     });
 
-    // Função para mostrar lembrete de exercício
+    // Função para mostrar os lembretes de exercícios
     lembreteBtn.addEventListener("click", function() {
         const randomIndex = Math.floor(Math.random() * lembretes.length);
         dicaTexto.textContent = lembretes[randomIndex];
         dicaTexto.style.display = "flex";
         
-        // Efeito de animação
+        
         dicaTexto.style.opacity = "0";
         setTimeout(() => {
             dicaTexto.style.opacity = "1";
@@ -90,10 +90,10 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Inicializar mensagem vazia
+    
     dicaTexto.style.display = "none";
 
-    // Adicionar efeitos de transição suaves
+    
     dicaTexto.style.transition = "opacity 0.3s ease";
 });
 ''
